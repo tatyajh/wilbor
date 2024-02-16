@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width">
+    <title>Insumos y Fragancias Wilbor</title>
+    <link rel="stylesheet" href="../Styles/reset.css">
+    <link rel="stylesheet" href="../Styles/style.css">
+    <link href="link rel=" preconnect href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Lato:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="caja">
+            <h1><img class="logo_web" src="../Img/Logo de la marca.png"></h1>
+            <nav>
+                <ul>
+                    <li><a href="http://localhost">Menu Principal</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <div class="login-container">
+            <form class="login-form" action="../php/iniciar_sesion.php" method="post">
+                <h1 class="login-title">Iniciar Sesión</h1>
+                <label for="username" class="login-label">Usuario:</label>
+                <input type="text" id="username" name="usuario" class="login-input" required
+                    placeholder="Nombre de usuario">
+                <label for="password" class="login-label">Contraseña:</label>
+                <input type="password" id="password" name="clave" class="login-input" required>
+
+                <button type="submit"  class="enviar">Enviar </button>
+
+                <div class="forgot-password">
+                    <a href="Recuperar.html">¿Olvidaste tu contraseña?</a>
+                </div>
+
+                <div class="Registrarse">
+                    <a href="registrarse.html">No tienes Cuenta / Registrarse</a>
+                </div>
+            </form>
+    </main>
+    <footer>
+        <img src="../Img/LOGO.png" alt="Logo">
+        <p class="copyright">&copy Copyright Insumos y Fragancias Wilbor - 2023</p>
+    </footer>
+</body>
+
+</html>
